@@ -4,6 +4,10 @@
 -- Calculate attrition rates for business insights
 
 
+-- fetch all table data
+select * from employee_attrition;
+
+
 -- 1. Total Attrition Count
 select attrition, 
 	   count(*) as total
